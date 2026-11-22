@@ -1,0 +1,4 @@
+hypothesis>=6
+pytest>=8
+Pillow>=10
+reportlab>=4

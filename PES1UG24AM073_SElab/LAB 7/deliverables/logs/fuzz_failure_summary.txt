@@ -1,0 +1,19 @@
+Hypothesis fuzzing of the original starter script
+Command: py -m pytest -q test_processor.py
+Result: 3 failed (one property test failed for each function)
+
+validate_height_and_fastpass
+  value=None  -> AttributeError: NoneType has no attribute 'strip'
+  value=''    -> ValueError: expected two colon-separated fields
+  value=':'   -> ValueError: invalid literal for int(): ''
+
+compute_dispatch_throughput
+  value=None  -> AttributeError: NoneType has no attribute 'split'
+  value=''    -> ValueError: expected two slash-separated fields
+  value='/'   -> ValueError: could not convert string to float: ''
+
+resolve_safety_restraint_code
+  value=None  -> AttributeError: NoneType has no attribute 'strip'
+  value=''    -> KeyError: ''
+
+Hypothesis minimized generated examples and reported the failures above.
