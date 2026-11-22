@@ -6,10 +6,11 @@
 
 ---
 
-## Lab Directory Index
+## Lab Directory Index (Labs 3 to 7)
 
 | Folder | Title | Summary of Completed Deliverables |
 |---|---|---|
+| [`LAB3/`](./LAB3/) | **Lab 3: Component Modelling & Architecture** | Layered Architecture selection for Student Club Event Ticketing & Budget Portal. Includes UML Component Diagram with 5 components and 6 interfaces (ball-and-socket notation), Jira Sprint Backlog integration, and individual report (`Lab3.pdf`, `Janhavi_R_individual_report.pdf`). |
 | [`LAB4/`](./LAB4/) | **Lab 4: VibeCoding — Skyscraper Stack Repair** | Fixed inverted overlap placement bug, implemented perfect placement bonus (+2 score & width restoration), off-cut tumbling debris animation, and atmospheric background color shifting. Includes `BEFORE.mp4`, `AFTER.mp4`, and `Lab_4_VibeCoding_Chat_History.pdf`. |
 | [`LAB5/`](./LAB5/) | **Lab 5: Static Code Analysis — Warehouse Stock Manager** | Cleaned and hardened `warehouse_stock_manager.py` using Pylint, Bandit, and Flake8. Eliminated `eval()`, replaced MD5 with SHA-256, secured credentials, removed mutable defaults. Pylint rating: **10.00/10**, Bandit: **0 vulnerabilities**, Flake8: **0 violations**. Includes `issues.md`, `reflection.md`, before/after report text files, and `Lab_5_Static_Code_Analysis_Report.pdf`. |
 | [`LAB6/`](./LAB6/) | **Lab 6: Code & Branch Coverage Analysis — Museum Admission** | Designed comprehensive unit test suites achieving **100% Statement Coverage** (36/36) and **100% Branch Coverage** (28/28 branches) on `museum_admission.py`. Includes `CodeCoverageTest_xxxx_application.py`, `BranchCoverageTest_xxxx_application.py`, terminal output screenshots, and full test suite. |
